@@ -1,0 +1,254 @@
+@import url('webfonts/ostrich-sans.css');
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+@keyframes zoom-out {
+  from {transform:scale(1)}
+  to {transform:scale(0)}
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family: 'Ostrich Sans';
+	background-image: url('H:Web Page/image/background-img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	 
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.heading
+{
+	position: absolute;
+	top:0%;
+	left:38%;
+	font-size: 70px;
+	text-align: center;
+}
+.sub-heading
+{
+	font-family: 'Ostrich Sans Rounded';
+	font-size:30px;
+	border:2px solid black;
+	height: 34px;
+	width:120%;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.sub-heading:hover
+{
+	border:2px solid white;
+	background-color: white;
+	transition: all 1s;
+}
+.sub-heading:hover .fas:before
+{
+	content: "\f063";
+}
+.fas
+{
+	margin-left: 15px;
+	font-size: 25px;
+}
+.info-pollution
+{
+	background-color: white;
+	position: absolute;
+	top:150%;
+	width: 100%;
+	height: 500px;
+}
+.main-head
+{
+	font-size: 50px;
+	text-align: center;
+}
+.content-block
+{
+	display: inline-block;
+	margin-right: 45px;
+
+}
+.air-details
+{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top:150%;
+	height: 500px;
+	width: 100%;
+	margin:0 auto;
+	border:2px solid red;
+	background-image: url('H:Web Page/image/background-img.jpg');
+	background-size: cover;
+	text-align: center;
+	overflow:auto;
+	animation-name: zoom;
+  animation-duration: 0.6s;
+
+}
+.water-details
+{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top:150%;
+	height: 500px;
+	width: 100%;
+	margin:0 auto;
+	border:2px solid red;
+	background-image: url('H:Web Page/image/background-img.jpg');
+	background-size: cover;
+	text-align: center;
+	overflow:auto;
+	animation-name: zoom;
+  animation-duration: 0.6s;
+
+}
+.land-details
+{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top:150%;
+	height: 500px;
+	width: 100%;
+	margin:0 auto;
+	border:2px solid red;
+	background-image: url('H:Web Page/image/background-img.jpg');
+	background-size: cover;
+	text-align: center;
+	overflow:auto;
+	animation-name: zoom;
+  animation-duration: 0.6s;
+
+}
+.Plastic-details
+{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top:150%;
+	height: 500px;
+	width: 100%;
+	margin:0 auto;
+	border:2px solid red;
+	background-image: url('H:Web Page/image/background-img.jpg');
+	background-size: cover;
+	text-align: center;
+	overflow:auto;
+	animation-name: zoom;
+  animation-duration: 0.6s;
+
+}
+#Ap,#Wp,#Lp,#Pw
+{
+	animation-duration: 3s;
+  animation-delay: 2s;
+}
+.close
+{
+	position: absolute;
+	top:0%;
+	right:2%;
+	font-size:50px;
+}
+.close:hover
+{
+	cursor: pointer;
+}
+.close1
+{
+	position: absolute;
+	top:0%;
+	right:2%;
+	font-size:50px;
+}
+.close1:hover
+{
+	cursor: pointer;
+}
+.close2
+{
+	position: absolute;
+	top:0%;
+	right:2%;
+	font-size:50px;
+}
+.close2:hover
+{
+	cursor: pointer;
+}
+.close3
+{
+	position: absolute;
+	top:0%;
+	right:2%;
+	font-size:50px;
+}
+.close3:hover
+{
+	cursor: pointer;
+}
+#Ap:hover
+{
+	cursor: pointer;
+}
+#Wp:hover
+{
+	cursor:pointer;
+}
+#Lp
+{
+	cursor:pointer;
+}
+#Pw
+{
+	cursor:pointer;
+}
+
+.slides
+{
+	display: none;
+	text-align: center;
+}
+.slides2
+{
+	display: none;
+	text-align: center;
+}
+.slides3
+{
+	display: none;
+	text-align: center;
+}
+.slides4
+{
+	display: none;
+	text-align: center;
+}
+.slide-show
+{
+	height: 200px;
+}
+#Ap:hover , #Wp:hover , #Lp:hover , #Pw:hover
+{
+	opacity: 0.7;
+}
+.text
+{
+	text-align: center;
+	width: 50%;
+	font-family:raleway;
+	margin-left:350px;
+	font-size: 20px;
+	font-weight: 50px;
+}
